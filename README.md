@@ -3,6 +3,10 @@
 Extends `SwiftUI/View` with the `onVisibilityChange(in:scale:perform:)` modifier, allowing you to track 
 the "visibility" of a view on the screen and execute an action when its visibility state changes.
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6c70321d-e9eb-4b79-9f4c-8f814eaa9f97" width="450">
+</p>
+
 ## Motivation
 When it comes to determining whether a view is "visible" on the screen, the system's `onAppear` 
 doesn't always provide reliable results (hello, `TabView`). Additionally, in some cases, it's 
